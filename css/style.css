@@ -1019,7 +1019,7 @@ blockquote p {
 	color: rgba(255,255,255,.8);
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 600;
 }
 .hero-carousel-wrapper {
@@ -3564,6 +3564,7 @@ section {
  
 @media only screen and  (max-width: 1500px) {
 .column-image {
+    display: none !important;
     position: relative;
 	float: left;
 	width: calc(100% - 90px);
